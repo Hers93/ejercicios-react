@@ -1,25 +1,52 @@
 import logo from './logo.svg';
+import Estado from './componente/Estado'
+import RenderizadoCondicional from './componente/RenderizadoCondicional';
+import RenderizadoElementos from './componente/RenderizadoElementos';
+import {EventosES6, EventosES7, MasSobreEventos} from './componente/Eventos'
+import CominicacionComponentes from './componente/ComunicacionComponentes'
+import AjaxApis from './componente/AjaxApis'
+import ContadorHooks from './componente/ContadorHooks'
+import ScrollHooks from './componente/ScrollHooks'
+import RelojHook from './componente/RelojHook'
+import AjaxHooks from './componente/AjaxHooks'
+import HooksPersonalizados from './componente/HooksPersonalizados';
+import Referencias from './componente/Referencias'
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Estado />
+      <hr />
+      <RenderizadoCondicional />
+      <hr />
+      <RenderizadoElementos />
+      <hr />
+      <EventosES6 />
+      <hr />
+      <EventosES7 />
+      <hr />
+      <MasSobreEventos />
+      <hr />
+      <CominicacionComponentes />
+       {/* <hr />
+      <AjaxApis /> */}
+ 
+      <hr />
+      <ContadorHooks />
+      <hr />
+      <ScrollHooks />
+      <hr />
+      <RelojHook />
+      <hr />
+      <AjaxHooks />
+      <hr />
+      <HooksPersonalizados />
+      <hr />
+      <Referencias />
     </div>
-  );
+  )
 }
 
 export default App;
