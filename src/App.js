@@ -9,8 +9,9 @@ import ContadorHooks from './componente/ContadorHooks'
 import ScrollHooks from './componente/ScrollHooks'
 import RelojHook from './componente/RelojHook'
 import AjaxHooks from './componente/AjaxHooks'
-import HooksPersonalizados from './componente/HooksPersonalizados';
+import HooksPersonalizados from './componente/HooksPersonalizados'
 import Referencias from './componente/Referencias'
+import Formularios from './componente/Formularios'
 
 import './App.css';
 
@@ -45,6 +46,15 @@ function App() {
       <HooksPersonalizados />
       <hr />
       <Referencias />
+      <hr />
+      <Formularios />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   )
 }
